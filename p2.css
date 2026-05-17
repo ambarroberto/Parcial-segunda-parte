@@ -56,3 +56,28 @@ nav a:active {
     color: #070609;
     background-color: #bcd7e1;
 }
+main {
+    max-width: 1000px;      
+    margin: 0 auto;          
+    display: block;
+}
+p.ent {
+    font-size: 1.1rem;
+}
+p.cuad {
+    display: inline-block;
+    width: 40%;
+    padding: 1.5rem 1rem;
+    font-size: 1.1rem;
+    text-align: left;
+    vertical-align: top;
+}
+aside.uno {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+iframe.uno {
+    width: 100%;
+    height: 25rem;
+}
