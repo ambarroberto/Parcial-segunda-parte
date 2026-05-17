@@ -81,3 +81,7 @@ iframe.uno {
     width: 100%;
     height: 25rem;
 }
+p.subtitulo {
+    font-size: 2rem;
+    font-weight: bold;
+}
