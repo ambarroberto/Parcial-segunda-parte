@@ -1,39 +1,54 @@
 body {
     font-family: 'Abel', sans-serif;
     background-color: #f0f0f0;
+    text-align: center;
+    width: 100%;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     background-image: url('../Parcial-segunda-parte/fotos1/fondo1.png');
 }
 h1, h2, h3, p, a, ul, li { 
     background-color: antiquewhite;
     display: inline-block;
 }
+h1 {
+    font-size: 3rem;
+    width: max-content;
+    margin: 0 auto 1.5rem auto;
+    text-align: center;
+}
+h2 {
+    font-size: 1.5rem;
+    width: max-content;
+    margin: 0 auto 1.5rem auto;
+    text-align: center;
+}
+nav {
+    display: block;
+    background-color: #3d3f4f;
+    padding: 1rem;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: max-content;
+}
 nav a:link {
     color: #10110f; 
     text-decoration: none;
-    padding: 8px 16px;
-    background-color: #ffffff; 
+    padding: 0.5rem 1rem;
+    background-color: #a0eeeb; 
     transition: all 0.3s ease;
 }
 nav a:visited {
-    color: #1a1f55; 
+    color: #070809; 
     text-decoration: none;
-    padding: 8px 16px;
-    background-color: #b3b597;
+    padding: 0.5rem 1rem;
+    background-color: #aeb7ba;
 }
 nav a:hover {
     color: #000000;
     background-color: #434db9;
 }
 nav a:active {
-    color: #7c61ba;
-    background-color: #dcc9a3;
-}
-nav a {
-    background-color: antiquewhite;
-    width: 30%;          
-    padding: 1rem;         
-    margin: 2rem auto;   
-    text-align: center;    
+    color: #070609;
+    background-color: #bcd7e1;
 }
