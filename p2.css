@@ -7,9 +7,13 @@ body {
     padding: 0;
     background-image: url('../Parcial-segunda-parte/fotos1/fondo1.png');
 }
- p, a, ul, li { 
+p, a {
     background-color: antiquewhite;
     display: inline-block;
+}
+ul, li {
+    background-color: antiquewhite;
+    display: block;
 }
 h1 {
     background-color: antiquewhite;
@@ -84,4 +88,25 @@ iframe.uno {
 p.subtitulo {
     font-size: 2rem;
     font-weight: bold;
+}
+.subtitulo-lista {
+    background-color: antiquewhite;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: max-content;
+    margin: 1.5rem auto 0.5rem auto;
+}
+ul {
+    background-color: antiquewhite;
+    display: block;
+    width: max-content;
+    margin: 0 auto 2rem auto;
+    text-align: left;
+    padding: 0.8rem 2rem;
+    list-style: disc;
+}
+li {
+    background-color: transparent;
+    display: list-item;
+    margin: 0.4rem 0;
 }
